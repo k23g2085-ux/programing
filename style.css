@@ -1,0 +1,221 @@
+ <style>
+        /* ページ全体の背景色を、うすい灰色にする */
+        body {
+            background-color: #f4f4f4; 
+            font-family: sans-serif; /* 読みやすいフォントに */
+        }
+
+        /* ページ全体を少し中央に寄せて、読みやすくする */
+        .container {
+            max-width: 800px; /* 最大幅を指定 */
+            margin: 20px auto; /* 上下に余白・左右は自動で中央寄せ */
+            padding: 20px; /* 内側の余白 */
+            background-color: white; /* 中身の背景は白に */
+            border-radius: 8px; /* 角を丸くする */
+        }
+
+        /* 画像を丸くして、中央ぞろえにする */
+        img {
+            width: 150px; /* 幅を150pxに */
+            height: 150px; /* 高さを150pxに */
+            border-radius: 50%; /* 50%にすると正円になります */
+            display: block; /* ブロック要素にして */
+            margin: 0 auto; /* 左右中央ぞろえ */
+            object-fit: cover; /* 画像の比率を保ったまま丸く切り抜く */
+        }
+
+        /* h1タグ（大見出し）の文字を中央ぞろえにする */
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* h2タグ（小見出し） */
+        h2 {
+            color: #0056b3; /* 少し濃い青色に */
+            border-bottom: 2px solid #0056b3; /* 下線を引く */
+            padding-bottom: 5px; /* 下線との余白 */
+        }
+
+        /* リスト（ul）の・を消す */
+        ul {
+            list-style: none; /* 点（・）をなしに */
+            padding-left: 0; /* 左の余白をリセット */
+        }
+
+        /* リストの項目（li） */
+        li {
+            background-color: #eee; /* 背景をうすいグレーに */
+            margin-bottom: 5px; /* 各項目の下の余白 */
+            padding: 10px; /* 内側の余白 */
+            border-radius: 5px; /* 角を丸くする */
+        }
+
+   <style>
+    /* * 「カワイイ感じ」にするためのCSS
+     */
+
+    /* Googleフォント（丸ゴシック）を読み込む（おまじない） */
+    @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap');
+
+    /* ページ全体の基本設定 */
+    body {
+        background-color: #fff8fb; /* 背景をうすーいピンクに */
+        font-family: 'M PLUS Rounded 1c', sans-serif; /* フォントを丸ゴシックに */
+        color: #555; /* 基本の文字色を少し柔らかい黒（ダークグレー）に */
+    }
+
+    /* ページ全体を囲む「箱」のデザイン */
+    .container {
+        max-width: 700px; /* 横幅を少し狭めて可愛らしく */
+        margin: 20px auto;
+        padding: 30px; /* 内側の余白を多めに */
+        background-color: white;
+        border-radius: 20px; /* 角をぐっと丸くする */
+        box-shadow: 0 4px 10px #ffdde5; /* ふんわりしたピンクの影をつける */
+    }
+
+    /* 画像を丸くする（これは前と同じ） */
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        border: 4px solid #ffb6c1; /* ふちにピンクの枠線を追加 */
+    }
+
+    /* h1タグ（名前） */
+    h1 {
+        text-align: center;
+        color: #db7093; /* 濃いめのピンク（PaleVioletRed） */
+    }
+
+    /* h2タグ（小見出し） */
+    h2 {
+        color: #ff69b4; /* 明るいピンク（HotPink） */
+        border-bottom: 2px dashed #ffb6c1; /* ピンクの点線の下線 */
+        padding-bottom: 5px;
+        margin-top: 30px; /* 見出しの上の余白を少しあける */
+    }
+
+    /* リスト（ul）の・を消す */
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    /* リストの項目（li） */
+    li {
+        background-color: #fff0f5; /* うすいピンク（LavenderBlush） */
+        margin-bottom: 8px;
+        padding: 12px;
+        border-radius: 10px; /* 角を丸くする */
+    }
+
+    /* リンク（a）のデザイン */
+    a {
+        color: #db7093; /* リンクの色もピンク系に */
+        text-decoration: none; /* 下線を消す */
+        font-weight: bold; /* 少し太字に */
+    }
+    /* リンクにマウスを乗せた時 */
+    a:hover {
+        color: #ff69b4; /* 色を明るくする */
+    }
+
+    /* style.css の一番下に追加 */
+
+/* ▼▼▼ 案内のデザイン ▼▼▼ */
+
+/* ナビゲーションメニュー全体（ピンクの帯） */
+nav {
+    background-color: #ffb6c1; /* 背景をピンクに */
+    padding: 10px; /* 内側の余白 */
+    
+    /* ↓↓↓ これが「真ん中」にするための命令です！ ↓↓↓ */
+    text-align: center; 
+}
+
+/* 案内の中のリンク（「ホーム」「趣味」の文字） */
+nav a {
+    color: white; /* 文字色を白に */
+    text-decoration: none; /* 下線を消す */
+    font-weight: bold; /* 太字にする */
+    padding: 10px 15px; /* 文字のまわりの余白 */
+    border-radius: 5px; /* 角を少し丸く */
+}
+</style>
+/* style.css の一番下 */
+
+/* ▼▼▼ ダークモード用のデザイン ▼▼▼ */
+
+/* <body> に "dark-mode" クラスが付いた時のデザイン */
+body.dark-mode {
+    background-color: #777; /* ← #333 から変更 (薄くした) */
+    color: #f4f4f4; /* ← 文字は明るいまま */
+}
+
+/* ダークモード中の「箱」 */
+body.dark-mode .container {
+    background-color: #888; /* ← #444 から変更 (薄くした) */
+    box-shadow: 0 4px 10px #555; /* ← 影も薄く */
+}
+
+/* ダークモード中の「見出し」 */
+body.dark-mode h1,
+body.dark-mode h2 {
+    color: #ffb6c1; 
+    border-bottom-color: #ffb6c1; 
+}
+
+/* ダークモード中の「リスト」 */
+body.dark-mode li {
+    background-color: #999; /* ← #555 から変更 (薄くした) */
+}
+/* style.css の一番下に追加 */
+
+/* ▼▼▼ モード切替ボタンのデザイン ▼▼▼ */
+#toggleButton {
+    background-color: #db7093; /* 濃いめのピンク */
+    color: white; /* 文字は白 */
+    border: none; /* もともとの枠線を消す */
+    padding: 10px 15px; /* 内側の余白 */
+    border-radius: 20px; /* 角を丸くする */
+    font-weight: bold; /* 太字にする */
+    cursor: pointer; /* マウスを乗せたら指カーソルに */
+    margin: 10px 0; /* ボタンの上下に少し余白 */
+}
+
+/* ボタンにマウスを乗せた時のデザイン */
+#toggleButton:hover {
+    background-color: #ff69b4; /* 少し明るいピンクに */
+}
+
+/* style.css の一番下（@media の前）に追加 */
+
+/* ▼▼▼ Flexbox プロフィール用レイアウト ▼▼▼ */
+
+/* 親（.profile-box）に Flexbox を適用 */
+.profile-box {
+    display: flex; /* ★これが魔法の呪文！中身が横並びになる */
+    align-items: center; /* 子を「上下中央」にそろえる */
+    gap: 20px; /* 子と子の間に 20px のすき間をあける */
+}
+
+/* 子（.profile-text）の幅を指定 */
+.profile-text {
+    flex: 2; /* 画像よりも 2倍 の幅を取る */
+}
+
+/* 子（.profile-image）の幅を指定 */
+.profile-image {
+    flex: 1; /* テキストの半分の幅を取る */
+}
+
+/* 画像が親の幅をはみ出さないようにする */
+.profile-image img {
+    width: 100%; /* 親（.profile-image）の幅いっぱいに広がる */
+    border-radius: 15px; /* （丸じゃなくて、角丸にしてみた例） */
+}
